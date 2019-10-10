@@ -2,7 +2,7 @@
 
 body {
 	background-color: #000000;
-	background-image: url("../img/pattern.png");
+	background-image: url("../img/pattern2.png");
 	font-family: 'Roboto Condensed';
 	color: #FFFFFF;
 }
@@ -109,18 +109,26 @@ a:hover {
 	text-transform: uppercase;
 }
 
+.company-title {
+	font-size: 2em;
+	width: 100%;
+}
+
 .job-epoch{
 	padding: 0 2em 0 0;
 }
 
 .job-location{
 	width: 75%;
-	text-align: right;
 }
 
 .company-description,
 .achievements {
 	width: 100%;
+}
+
+.achievements {
+	font-size: 1.5em;
 }
 
 .job-card ul {
