@@ -72,12 +72,10 @@ a:hover {
 	font-size: 1.5em;
 }
 
-.small-icon {
-	color: #FF8400;
-	height: 1.5em;
-	width: 1.5em;
-	margin-left: 1em;
-	float: right;
+.contact-list li i {
+	color: #fc9003;
+	font-size: 1.2em;
+	padding: 0 0 0 1em;
 }
 
 .working-experience h2 {
@@ -87,14 +85,16 @@ a:hover {
 	text-transform: uppercase;
 }
 
-.job-card {
+.job-card,
+.education-card {
 	padding: 2em 0 1.5em 3em;
 	border-bottom: solid;
 	border-color: #9e9e9e;
 	width: 90%;
 }
 
-.job-position {
+.job-position,
+.carrer-title {
 	font-size: 2.5em;
 	width: 100%;
 }
@@ -109,21 +109,26 @@ a:hover {
 	text-transform: uppercase;
 }
 
-.company-title {
+.company-title,
+.education-center-title {
 	font-size: 2em;
 	width: 100%;
 }
 
-.job-epoch{
+.job-epoch, 
+.education-epoch {
 	padding: 0 2em 0 0;
+	width: 18%;
 }
 
-.job-location{
-	width: 75%;
+.job-location,
+.education-location {
+	width: 50%;
 }
 
 .company-description,
-.achievements {
+.achievements,
+.courses {
 	width: 100%;
 }
 
@@ -178,4 +183,13 @@ a:hover {
 	border-color: #9e9e9e; 
 	border-radius: 2em;
 	background-color: #ff5900;
+}
+
+.course-list {
+	list-style: none;
+}
+
+.course-list li {
+	width: 50%;
+	float: left;
 }
