@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+body {
+	background-color: #ffffff;
+	background-image: url("../img/pattern2.png");
+	/* background-attachment: fixed; */
+	/*background-size: 100%;*/
+	font-family: 'Roboto Condensed';
+	color: #000000cc;
+}
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+.primary-font-color {
+	color: #aaaaaa;
+}
+
+.secondary-font-color {
+	color: #885400;
+}
+
+.main-header,
+.job-card {
+	padding-top: 4em;
+}
+
+.title-info-main {
+	border-left: solid;
+	border-width: 2em ;
+	border-color: #776043;
+}
+
+.name {
+	font-size: 5em;
+	margin: 0;
+	text-transform: uppercase;
+	color: #776043;
+}
+
+.title {
+	font-size: 2.5em;
+	color: #000000;
+}
+
+.brief-desc{
+	font-size: 1.5em;
+}
+
+.face-picture {
+	border-radius: 2em;
+	border: 0.2em solid #aaaaaa;
+	height: 20em;
+	width: 18em;
+	display:block;
+    margin:auto;
+}
+
+.contact-list {
+	list-style: none;
+}
+
+.contact-list li {
+	margin: 2em 12em 1em 4em;
+	text-align: right;
+	width: 80%;
+}
+
+.contact-list li a {
+	font-size: 2.5em;
+}
+
+.contact-list li i {
+	color: #aaaaaa;
+	font-size: 1.5em;
+	padding: 0 0 0 1em;
+}
+
+.working-experience h2 {
+	margin: 2em 0 0 0;
+	color: #aaaaaa;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+.job-card,
+.education-card {
+	padding: 2em 0 1.5em 3em;
+	border-bottom: solid;
+	border-color: #9e9e9e;
+	width: 90%;
+}
+
+.job-position,
+.carrer-title {
+	font-size: 2.5em;
+	font-weight: bolder;
+	width: 100%;
+}
+
+.secondary-title {
+	border-left: solid;
+	padding: 0 0 0 0.5em;
+	margin: 1em 0 0 0;
+	color: #aaaaaa;
+	width: 100%;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+.company-title,
+.education-center-title {
+	font-size: 2em;
+	width: 100%;
+	color: #aaaaaa;
+}
+
+.job-epoch, 
+.education-epoch {
+	color: #000000;
+	font-size: 1.5em;
+	padding: 0 1em 0 0;
+	width: 20%;
+}
+
+.job-location,
+.education-location {
+	border-left: 0.1em solid #776043;
+	color: #000000;
+	font-size: 1.5em;
+	padding-left: 1.5em;
+	width: 50%;
+}
+
+.company-description,
+.achievements,
+.courses {
+	font-size: 1.5em;
+	width: 100%;
+}
+
+.achievements {
+	font-size: 2em;
+}
+
+.job-card ul {
+	font-size: 1.5em;
+	width: 75%;
+}
+
+.job-contact {
+	font-size: 1.2em;
+}
+
+.skill-list,
+.interests ul {
+	list-style: none;
+	padding: 3em 0 0 0;
+
+}
+
+.skill-list li,
+.interests li {
+	background-color: #cfcfcf;
+	padding: 0.5em 0.8em;
+	border-radius: 0.8em;
+	border-color: #000000; 
+	width: auto;
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.skills,
+.languages,
+.interests {
+	overflow: auto;
+	width: 100%;
+}
+
+.skills h2 {
+	margin: 2em 0 0 0;
+}
+
+.languages h5 {
+	padding: 2em 0 0.4em 0;
+	overflow: auto;
+	width: 100%;
+}
+
+.language-bullet {
+	margin: 0 4% 0 0;
+	width: 2em;
+	float: left;
+	height: 2em;
+	border-style: solid;
+	border-color: #000000; 
+	border-radius: 2em;
+	background-color: #ffffff;
+}
+
+.course-list {
+	font-size: 1.5em;
+	list-style: none;
+}
+
+.course-list li {
+	width: 50%;
+	float: left;
+}
